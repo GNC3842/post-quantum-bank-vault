@@ -1,10 +1,28 @@
+#Environnement virtuel python
 .venv/
+#Cahce python
 __pycache__/
 *.pyc
 *.pyo
+#Cache de test python
 .pytest_cache/
+#Instalation ptyon
 *.egg-info/
+dist/
+build/
+#Variable environnement
 .env
+.env.local 
+#Clefs crypto
 *.key
 *.pem
-
+*.p12
+#Fichier editeur
+.vscode/settings.json
+*.swp
+*.swo
+#Fichiers systeme
+.DS_Store
+Thumbs.db
+#Python lcoale
+.python-version
